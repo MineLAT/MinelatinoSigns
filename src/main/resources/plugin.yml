@@ -1,0 +1,7 @@
+name: MinelatinoSigns
+main: me.gasthiiml.signs.Main
+version: 1.0.1
+depend: [Vault]
+commands:
+  agregarcartel:
+    description: Main Command.

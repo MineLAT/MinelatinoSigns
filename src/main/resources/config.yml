@@ -1,0 +1,16 @@
+######################################################
+# Hecho por Minelatino Network: play.minelatino.com  #
+# discord.minelatino.com   | Gasthi#1111             #
+######################################################
+
+required-coins: 400
+cooldown: 5
+
+cooldown-message: '&cDebes esperar &f<time>s &cpara poder usar esto'
+success-message: '&a&lFelicidades, papi. Arreglaste tu armor uwu'
+error-message: '&4&lEres pobre, pa. No puedes arreglar tu armadura'
+
+repair-blacklist:
+  - GOLD_SWORD
+
+signs: []

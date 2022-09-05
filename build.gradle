@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'me.gasthiiml'
+version '1.0.1'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+
+    maven { url 'https://repo.codemc.io/repository/nms/' }
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'com.github.MilkBowl:VaultAPI:1.7'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}
+
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    setArchivesBaseName('MinelatinoSigns')
+    options.encoding = 'UTF-8'
+}
