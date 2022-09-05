@@ -37,5 +37,5 @@ kitpvp.minelatino.carteles.admin
 
 
 # Hecho por Minelatino Network: play.minelatino.com  #
-# discord.minelatino.com   | Gasthi#1111             #
+#              discord.minelatino.com               #
 
